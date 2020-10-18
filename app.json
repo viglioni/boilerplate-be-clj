@@ -1,0 +1,6 @@
+{
+  "name": "Boilerplate BE",
+  "description": "",
+  "image": "heroku/clojure",
+  "addons": [ "heroku-postgresql" ]
+}
