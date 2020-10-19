@@ -21,7 +21,7 @@ mv "./test/boilerplate_clojure" "./test/$project_name_dir"
 
 for file in $(find ./src -iname "*.clj") $(find ./test -iname "*.clj")
 do
-  my_sed -i 's/stocks\./'"$project_name_files"'\./g' $file
+  my_sed -i 's/boilerplate-clojure\./'"$project_name_files"'\./g' $file
 done
 
 
